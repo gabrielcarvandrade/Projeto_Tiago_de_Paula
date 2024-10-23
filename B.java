@@ -2,30 +2,39 @@ public class B {
     private int B1;
     private float B2;
 
-    // Getters
+    // Construtor
+    public B(int B1, float B2) {
+        this.B1 = B1;
+        this.B2 = B2;
+    }
+
+    // Getters e Setters
     public int getB1() {
         return B1;
+    }
+
+    public void setB1(int B1) {
+        this.B1 = B1;
     }
 
     public float getB2() {
         return B2;
     }
 
-    // Setters
-    public void setB1(int b1) {
-        this.B1 = b1;
+    public void setB2(float B2) {
+        this.B2 = B2;
     }
 
-    public void setB2(float b2) {
-        this.B2 = b2;
-    }
-
-    // Métodos MB1 e MB2
+    // Métodos MB1, MB2 e MB3
     public void MB1() {
-        System.out.println("Método MB1 chamado");
+        System.out.println("Método MB1");
     }
 
     public void MB2() {
-        System.out.println("Método MB2 chamado");
+        System.out.println("Método MB2");
+    }
+
+    public void MB3() {
+        System.out.println("Método MB3");
     }
 }
